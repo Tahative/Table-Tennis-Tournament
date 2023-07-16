@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="style.css/style.css">
 
 <head>
     <meta charset="UTF-8">
@@ -13,17 +14,23 @@
     </header>
 
     <body>
-        <caption><h2>Table Tennis Tournament</h2></caption>
+        <caption>
+            <h2>Table Tennis Tournament</h2>
+        </caption>
         <br>
-        <small>Tournament Schedule and Result</small>
+        <small class="sub">Tournament Schedule and Result</small>
 
         <table>
             <th>
-                <tr>
-                    <td><Strong><strong>Round 1</strong></Strong></td>
+                <tr class="tr one">
+                    <td><strong>Round 1</strong></td>
                     <td><strong>Player A</strong></td>
                     <td><strong>Player B</strong></td>
                 </tr>
+
+            </th>
+            <tbody>
+                <!-- This is first row -->
                 <tr>
                     <td>Match 1</td>
                     <td>John</td>
@@ -39,8 +46,18 @@
                     <td><strong>Player C</strong></td>
                     <td><strong>Plater D</strong></td>
                 </tr>
-            </th>
-            <tbody></tbody>
+                  <tr>
+                    <td>Match 1</td>
+                    <td>John</td>
+                    <td>Alice</td>
+                </tr>
+                <tr>
+                    <td>Match 1</td>
+                    <td>Mark</td>
+                    <td>Sarah</td>
+                </tr>
+
+            </tbody>
             <tfoot></tfoot>
         </table>
     </body>
